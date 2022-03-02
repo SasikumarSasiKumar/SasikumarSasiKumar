@@ -1,0 +1,44 @@
+What is selenium? what are the different selenium components?Explain about selenium webdriver?
+answer:  selenium is an open source tool that automates web browser.it provides a single interface that lets you write test scripts in programming languages like java,
+          python,c++.
+Different selenium Component:
+        1) selenium IDE
+        2) selenium Rc
+        3) selenium Web driver
+        4) Selenium Grid
+Explain Selenium WebDriver:
+         selenium Webdriver is a collection of open source APIs which are used to automate the testing of a wbe application.it supports many browers such as firefox,chrome,IE.
+         
+2)Hoe does selenium communication with the web browser?
+Answer:  step1: seleniun script create an http request for each selenium commend and it send to the broweser driver.
+         step2: http request is then sent to the server using browser driver.
+         step3: the steps are excuted on the http server.
+         step4: the excutation server its sends to the http server which is captured by autotestsing script.
+ 
+3)what are the locators availabel to find an element using selenium?
+Answer: there are eight locators in selenium .
+            1) Id
+            2) Name
+            3) ClassName
+            4) tagName
+            5) Linktext
+            6) particalLinktext
+            7) Css selector
+            8) xpath
+        locators identify by using "By.locators"
+   
+4) Why Id is preferable then xpath?
+ Answer: Id is preferable then Xpath because id is uniqe.
+ 
+ 5) How to select value in dropdown?
+ Answer: step1: import select package.
+         step2: create a Webelement for required Webelement.
+         step3: now call select class and creater object
+                
+                
+         
+         
+         
+   
+           
+  
